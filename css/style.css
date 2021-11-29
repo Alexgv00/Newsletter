@@ -1,0 +1,110 @@
+:root{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+  --i-primary: #9FACF5;
+  --i-secondary: #2E97F5;
+  --bg-incibe: rgb(9,9,121);
+  --incibe-gradient: linear-gradient(145deg, rgba(9,9,121,1) 39%, rgba(89,29,201,0.7651435574229692) 68%);
+}
+
+body {
+  margin: 0 auto;
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+table {
+  max-width: 600px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: var(--bg-primary);
+}
+table tr td {
+  
+  border: 0;
+  border:solid 2px #000000;
+  padding: 0px;
+}
+
+.link-text{
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 1.4rem;
+  letter-spacing: 00.3ch;
+  width: 100%;
+}
+
+.cyber, .program{
+  margin-left: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--text-secondary);
+  letter-spacing: 00.5ch;
+
+}
+.cyber img, .program img{
+  height: 10rem;
+}
+.cyber div{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1rem;
+}
+
+.message {
+  text-align: center;
+  background-color: var(--bg-primary);
+  color: #ffffff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: bolder;
+}
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+h3{
+    padding: 0px 0 0px 20px;
+    font-size: 22px;
+    margin:0;
+}
+
+.confirm {
+  padding-bottom: 1.2rem;
+  padding-top: 3rem;
+  text-align: center;
+}
+.confirm a{
+    padding: 10px 20px;
+    display: inline-block;
+    background: var(--bg-incibe);
+    background: var(--incibe-gradient);
+    color: var(--text-primary);
+    font-weight: bolder;
+    text-decoration: none;
+
+    border-radius: 4px;
+    box-shadow: 1px 1px 8px 0px #1c1c1c;
+    transition: .3s;
+}
+.confirm:hover a{
+    transform: scale(1.1);
+    transition: .3s;
+    background-color: linear-gradient(145deg, rgba(89,29,201,0.7651435574229692) 39%,  rgba(9,9,121,1) 68%,);;
+
+}
+
+.confirm div img{
+    width: 2.5rem;
+    margin-top:20px;
+}
